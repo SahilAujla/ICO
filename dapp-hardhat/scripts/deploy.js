@@ -27,7 +27,7 @@ async function main() {
     deployedCryptoDevsTokenContract.address
   );
 
-  contractAddress = deployedCryptoDevsContract.address;
+  contractAddress = deployedCryptoDevsTokenContract.address;
 
   saveAbi();
   saveContractAddress();
